@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import FeatImage01 from "@/public/images/features-03-image-01.png";
-import FeatImage02 from "@/public/images/features-03-image-02.png";
-import FeatImage03 from "@/public/images/features-03-image-03.png";
+import FeatImage01 from "@/public/images/edit.png";
+import FeatImage02 from "@/public/images/explain.png";
+import FeatImage03 from "@/public/images/generate.png";
 
 export default function Zigzag() {
   return (
@@ -31,7 +31,7 @@ export default function Zigzag() {
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage01}
                   width={540}
-                  height={405}
+                  // height={405}
                   alt="Features 01"
                 />
               </div>
@@ -101,8 +101,8 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage02}
-                  width={540}
-                  height={405}
+                  width={840}
+                  // height={405}
                   alt="Features 02"
                 />
               </div>
@@ -112,7 +112,7 @@ export default function Zigzag() {
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <h3 className="h3 mb-3">Get possible explainations</h3>
+                  <h3 className="h3 mb-3">Get possible explanations</h3>
                   <div className="text-xl text-purple-600 mb-2">
                     —————————————————————
                   </div>
@@ -170,8 +170,8 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage03}
-                  width={540}
-                  height={405}
+                  width={840}
+                  // height={405}
                   alt="Features 03"
                 />
               </div>
