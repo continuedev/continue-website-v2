@@ -12,7 +12,7 @@ export default function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  href="https://continue.dev/docs/introduction"
+                  href="https://continue.dev/docs/intro"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Documentation"
                 >
