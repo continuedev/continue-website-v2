@@ -30,7 +30,7 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage01}
-                  width={540}
+                  width={448}
                   // height={405}
                   alt="Features 01"
                 />
@@ -43,7 +43,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <h3 className="h3 mb-3">Edit in natural language</h3>
                   <div className="text-xl text-purple-600 mb-2">
-                    ——————————————
+                    ——————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
                     Highlight a section of code and instruct Continue to
@@ -101,7 +101,7 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage02}
-                  width={840}
+                  width={768}
                   // height={405}
                   alt="Features 02"
                 />
@@ -114,7 +114,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <h3 className="h3 mb-3">Get possible explanations</h3>
                   <div className="text-xl text-purple-600 mb-2">
-                    —————————————————————
+                    ————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
                     Ask Continue about a part of your code to get another
@@ -170,7 +170,7 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage03}
-                  width={840}
+                  width={768}
                   // height={405}
                   alt="Features 03"
                 />
@@ -183,7 +183,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <h3 className="h3 mb-3">Generate files from scratch</h3>
                   <div className="text-xl text-purple-600 mb-2">
-                    ————————————————————
+                    —————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
                     Let Continue rapidly build the scaffolding of Python
