@@ -12,8 +12,8 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Auto-complete tasks, not just tabs</h1>
-            <p className="text-xl text-gray-400">Press `Continue` when you trust an LLM to take the next development step</p>
+            <h1 className="h2 mb-4">Fine-tune on your own data</h1>
+            <p className="text-xl text-gray-400">Continue automatically collects what code suggestions you accept and reject, so that LLMs can be fine-tuned on your own data to provide better suggestions</p>
           </div>
 
           {/* Items */}
