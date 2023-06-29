@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/docs"
-  to = "https://continue.dev/docs/intro"
+  to = "/docs/intro"
   status = 200
 
 [[redirects]]
