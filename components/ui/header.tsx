@@ -25,7 +25,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
         </div>
       </div>
     </header>
