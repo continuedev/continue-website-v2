@@ -1,12 +1,12 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
-}
+  title: "Continue",
+  description: "Continue",
+};
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
+import Hero from "@/components/hero";
+import Features from "@/components/features";
+import Newsletter from "@/components/newsletter";
+import Zigzag from "@/components/zigzag";
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
       <Zigzag />
       <Newsletter />
     </>
-  )
+  );
 }
