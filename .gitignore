@@ -40,3 +40,5 @@ next-env.d.ts
 
 # temp
 public/videos/dau.mov
+
+.next
