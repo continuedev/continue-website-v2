@@ -186,7 +186,7 @@ export default function Zigzag() {
                     —————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
-                    Let Continue rapidly build the scaffolding of Python
+                    Let Continue build the scaffolding of Python
                     scripts, React components, and more
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
