@@ -40,7 +40,10 @@ export default function Zigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-left"
               >
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                <div
+                  className="md:pl-4 lg:pl-12 xl:pl-16"
+                  style={{ maxWidth: "calc(100vw - 20px)" }}
+                >
                   <h3 className="h3 mb-3">Get possible explanations</h3>
                   <div className="text-xl text-purple-600 mb-2">
                     ————————————————————
@@ -109,7 +112,10 @@ export default function Zigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
               >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div
+                  className="md:pr-4 lg:pr-12 xl:pr-16"
+                  style={{ maxWidth: "calc(100vw - 20px)" }}
+                >
                   <h3 className="h3 mb-3">Edit in natural language</h3>
                   <div className="text-xl text-purple-600 mb-2">
                     ——————————————————
@@ -180,7 +186,10 @@ export default function Zigzag() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
               >
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div
+                  className="md:pr-4 lg:pr-12 xl:pr-16"
+                  style={{ maxWidth: "calc(100vw - 20px)" }}
+                >
                   <h3 className="h3 mb-3">Generate files from scratch</h3>
                   <div className="text-xl text-purple-600 mb-2">
                     —————————————————————
