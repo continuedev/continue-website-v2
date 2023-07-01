@@ -61,7 +61,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>"/explain what might cause this error?"</span>
+                      <span>"/explain how do I find running process on port 8000?"</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -72,7 +72,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/explain what is the load_dot_env library name?"
+                        "/explain what is the load_dotenv library name?"
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -84,7 +84,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/explain how do I find running process on port 8000?"
+                      "/explain what might cause this error?"
                       </span>
                     </li>
                   </ul>
@@ -195,7 +195,7 @@ export default function Zigzag() {
                     —————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
-                    Let Continue rapidly build the scaffolding of Python
+                    Let Continue build the scaffolding of Python
                     scripts, React components, and more
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
