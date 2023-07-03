@@ -47,7 +47,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Open-source autopilot for software development
+              The open-source autopilot for software development
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
