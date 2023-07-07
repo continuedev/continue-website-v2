@@ -27,7 +27,7 @@ export default function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  href="https://discord.gg/DvACJvjx"
+                  href="https://discord.gg/vapESyrFmJ"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Discord"
                 >
