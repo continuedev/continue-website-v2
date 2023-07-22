@@ -1,9 +1,9 @@
 'use client'
-
-import { useState, useRef, Fragment } from 'react'
+import { useState, Fragment } from 'react'
 import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
+import YouTube from 'react-youtube'
 
 interface ModalVideoProps {
   thumb: StaticImageData
@@ -25,7 +25,14 @@ export default function ModalVideo({
   videoHeight,
 }: ModalVideoProps) {
   const [modalOpen, setModalOpen] = useState<boolean>(false)
-  const videoRef = useRef<HTMLVideoElement>(null)
+
+  const opts = {
+    height: videoHeight,
+    width: videoWidth,
+    playerVars: {
+      autoplay: modalOpen ? 1 : 0,
+    },
+  }
 
   return (
     <div>
@@ -50,8 +57,8 @@ export default function ModalVideo({
       </div>
       {/* End: Video thumbnail */}
 
-      <Transition show={modalOpen} as={Fragment} afterEnter={() => videoRef.current?.play()}>
-        <Dialog initialFocus={videoRef} onClose={() => setModalOpen(false)}>
+      <Transition show={modalOpen} as={Fragment}>
+        <Dialog onClose={() => setModalOpen(false)}>
 
           {/* Modal backdrop */}
           <Transition.Child
@@ -78,10 +85,7 @@ export default function ModalVideo({
           >
             <div className="max-w-6xl mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full aspect-video bg-black overflow-hidden">
-                <video ref={videoRef} width={videoWidth} height={videoHeight} loop controls>
-                  <source src={video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <YouTube videoId={video} opts={opts} />
               </Dialog.Panel>
             </div>
           </Transition.Child>

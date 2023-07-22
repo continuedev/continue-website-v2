@@ -62,7 +62,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/explain how do I find running process on port 8000?"
+                        "how can I set up a Prisma schema that cascades deletes?"
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -74,7 +74,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/explain what is the load_dotenv library name?"
+                        "where in the page should I be making this request to the backend?"
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -85,7 +85,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>"/explain what might cause this error?"</span>
+                      <span>"how can I communicate between these iframes?"</span>
                     </li>
                   </ul>
                 </div>
@@ -102,7 +102,7 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage02}
-                  width={448}
+                  width={768}
                   // height={405}
                   alt="Features 02"
                 />
@@ -134,7 +134,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit Make this use more descriptive variable names"
+                        "/edit migrate this digital ocean terraform file into one that works for GCP"
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -146,7 +146,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit Rewrite this API call to grab all pages"
+                        "/edit change this plot into a bar chart in this dashboard component"
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -158,7 +158,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit Use 'Union' instead of a vertical bar here"
+                        "/edit rewrite this function to be async"
                       </span>
                     </li>
                   </ul>
@@ -208,7 +208,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "Create a shell script to back up my home dir to /tmp/"
+                        "/edit here is a connector for postgres, now write one for kafka"
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -220,7 +220,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "Write Python in a new file to get Posthog events"
+                        "/edit make an IAM policy that creates a user with read-only access to S3"
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -232,7 +232,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "Add a React component for syntax highlighted code"
+                        "/edit use this schema to write me a SQL query that gets recently churned users"
                       </span>
                     </li>
                   </ul>
