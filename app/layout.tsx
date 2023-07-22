@@ -1,6 +1,6 @@
 import "./css/style.css";
 
-import { Inter, Architects_Daughter } from "next/font/google";
+import { Inter, Architects_Daughter, Lexend } from "next/font/google";
 
 import Header from "@/components/ui/header";
 import Banner from "@/components/banner";
@@ -14,6 +14,13 @@ const inter = Inter({
 const architects_daughter = Architects_Daughter({
   subsets: ["latin"],
   variable: "--font-architects-daughter",
+  weight: "400",
+  display: "swap",
+});
+
+const lexend = Lexend({
+  subsets: ["latin"],
+  variable: "--font-lexend",
   weight: "400",
   display: "swap",
 });
