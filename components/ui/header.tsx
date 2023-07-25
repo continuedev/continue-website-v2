@@ -25,7 +25,7 @@ export default function Header() {
             <ul className="flex grow justify-start flex-wrap items-center">
               <li>
                 <Link
-                  href="https://www.blog.continue.dev"
+                  href="https://www.blog.continue.dev/its-time-to-collect-data-on-how-you-build-software/"
                   target="_blank"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
