@@ -28,9 +28,9 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl"
                   style={{
-                    boxShadow: "0px 0px 20px 8px rgba(174, 46, 86, 1.0)",
+                    boxShadow: "0px 0px 12px 5px rgba(174, 46, 86, 1.0)",
                   }}
                   src={FeatImage01}
                   width={768}
@@ -107,9 +107,9 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl"
                   style={{
-                    boxShadow: "0px 0px 20px 8px rgba(174, 46, 86, 1.0)",
+                    boxShadow: "0px 0px 12px 5px rgba(174, 46, 86, 1.0)",
                   }}
                   src={FeatImage02}
                   width={768}
@@ -123,7 +123,7 @@ export default function Zigzag() {
                 data-aos="fade-right"
               >
                 <div
-                  className="md:pr-4 lg:pr-12 xl:pr-16"
+                  className="md:pl-4 lg:pl-12 xl:pl-16"
                   style={{ maxWidth: "calc(100vw - 20px)" }}
                 >
                   <h3 className="h3 mb-3">Edit in natural language</h3>
@@ -184,9 +184,9 @@ export default function Zigzag() {
                 data-aos="fade-up"
               >
                 <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  className="max-w-full mx-auto md:max-w-none h-auto rounded-xl"
                   style={{
-                    boxShadow: "0px 0px 20px 8px rgba(174, 46, 86, 1.0)",
+                    boxShadow: "0px 0px 12px 5px rgba(174, 46, 86, 1.0)",
                   }}
                   src={FeatImage03}
                   width={768}
