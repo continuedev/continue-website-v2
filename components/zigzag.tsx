@@ -52,8 +52,7 @@ export default function Zigzag() {
                     ————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
-                    Ask Continue about a part of your code to get another
-                    perspective
+                    Highlight sections of code and ask Continue for another perspective
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -131,8 +130,7 @@ export default function Zigzag() {
                     ——————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
-                    Highlight a section of code and instruct Continue to
-                    refactor it
+                    Highlight a section of code and instruct Continue to refactor it
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -208,8 +206,7 @@ export default function Zigzag() {
                     —————————————————————
                   </div>
                   <p className="text-xl text-gray-400 mb-4">
-                    Let Continue build the scaffolding of Python scripts, React
-                    components, and more
+                    Open a blank file and let Continue start new Python scripts, React components, etc.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
