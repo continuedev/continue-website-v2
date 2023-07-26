@@ -123,7 +123,7 @@ export default function Hero() {
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            video="ebbroxkeuYk"
+            video="3Ocrc-WX4iQ"
             videoWidth={1024}
             videoHeight={576}
           />
