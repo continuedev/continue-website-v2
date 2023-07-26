@@ -28,7 +28,7 @@ export default function Header() {
                 <Link
                   href="https://www.blog.continue.dev/its-time-to-collect-data-on-how-you-build-software/"
                   target="_blank"
-                  className="font-medium text-red-500 hover:text-gray-300 hover:border-zinc-400 px-5 py-2 flex items-center transition duration-300 ease-in-out border-[2px] border-zinc-300 rounded-lg"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-5 py-2 ml-8 flex items-center transition duration-300 ease-in-out border-[2px] border-zinc-300 rounded-lg"
                 >
                   Blog
                 </Link>
