@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import MobileMenu from "./mobile-menu";
 
 export default function Header() {
@@ -10,7 +11,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
-              <img
+              <Image
                 src="/images/cd.svg"
                 width="48"
                 height="48"
@@ -20,14 +21,14 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
+          <nav className="md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-start flex-wrap items-center">
               <li>
                 <Link
                   href="https://www.blog.continue.dev/its-time-to-collect-data-on-how-you-build-software/"
                   target="_blank"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-red-500 hover:text-gray-300 hover:border-zinc-400 px-5 py-2 flex items-center transition duration-300 ease-in-out border-[2px] border-zinc-300 rounded-lg"
                 >
                   Blog
                 </Link>
