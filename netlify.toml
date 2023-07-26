@@ -12,3 +12,9 @@
   from = "/docs"
   to = "https://continuedev.netlify.app/intro"
   status = 200
+
+[[redirects]]
+  from = "https://www.blog.continue.dev/*"
+  to = "https://blog.continue.dev/:splat"
+  status = 301
+  force= true
