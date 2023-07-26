@@ -22,3 +22,31 @@
 [x-cloak=""] {
   display: none;
 }
+
+
+@media only screen and (max-width: 625px) {
+  .continue-svg {
+    @apply w-[470px]
+  } 
+}
+
+
+@media only screen and (max-width: 475px) {
+  .continue-svg {
+    @apply w-[400px]
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .continue-svg {
+    @apply w-[350px]
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .continue-svg {
+    @apply w-[90vw]
+  }
+} 

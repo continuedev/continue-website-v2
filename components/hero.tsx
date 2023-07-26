@@ -47,8 +47,8 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <svg
-              style={{ maxWidth: "90vw" }}
-              className="w-108 h-32 fill-current white m-auto px-8 drop-shadow-[4px_4px_0_#BE1B55]"
+              // style={{ maxWidth: "90vw" }}
+              className="continue-svg h-32 fill-current white m-auto px-8 drop-shadow-[4px_4px_0_#BE1B55]"
               viewBox="0 0 736 178"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
