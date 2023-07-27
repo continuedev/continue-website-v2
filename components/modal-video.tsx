@@ -26,7 +26,7 @@ export default function ModalVideo({
 }: ModalVideoProps) {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
 
-  if (window.innerWidth < videoWidth) {
+  if (typeof window !== "undefined" && window.innerWidth < videoWidth) {
     videoHeight = (window.innerWidth / videoWidth) * videoHeight;
     videoWidth = window.innerWidth;
   }
