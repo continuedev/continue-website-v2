@@ -69,6 +69,20 @@ export default function Hero() {
             >
               A VS Code extension that brings the power of ChatGPT to your IDE
             </p>
+            <a
+              href="https://www.producthunt.com/posts/continue?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-continue"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=408020&theme=light"
+                alt="Continue - The&#0032;open&#0045;source&#0032;coding&#0032;autopilot | Product Hunt"
+                style={{ width: "250px", height: "54px", margin: "auto" }}
+                width="250"
+                height="54"
+              />
+            </a>
+            <br />
+            <br />
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
