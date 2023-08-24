@@ -3,9 +3,7 @@ import "./css/style.css";
 import { Inter, Architects_Daughter, Lexend } from "next/font/google";
 
 import Header from "@/components/ui/header";
-import Banner from "@/components/banner";
 import Script from "next/script";
-import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,12 +37,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <body
+        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-black text-gray-200 tracking-tight`}
+      >
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-E6VGV6T35Q"
         ></Script>
-        <Script>
+        <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -53,10 +53,6 @@ export default function RootLayout({
           gtag('config', 'G-E6VGV6T35Q');
         `}
         </Script>
-      </Head>
-      <body
-        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-black text-gray-200 tracking-tight`}
-      >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
