@@ -26,7 +26,7 @@ export default function Header() {
             <ul className="flex grow justify-start flex-wrap items-center">
               <li>
                 <Link
-                  href="https://medium.com/@continuedev/its-time-to-collect-data-on-how-you-build-software-197d12a020d5"
+                  href="https://blog.continue.dev"
                   target="_blank"
                   className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-5 py-2 ml-8 flex items-center transition duration-300 ease-in-out border-[2px] border-zinc-300 rounded-lg"
                 >
