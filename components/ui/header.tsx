@@ -28,9 +28,27 @@ export default function Header() {
                 <Link
                   href="https://blog.continue.dev"
                   target="_blank"
-                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-5 py-2 ml-8 flex items-center transition duration-300 ease-in-out border-[2px] border-zinc-300 rounded-lg"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
                 >
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://continue.dev/docs"
+                  target="_blank"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                >
+                  Docs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://discord.gg/vapESyrFmJ"
+                  target="_blank"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                >
+                  Discord
                 </Link>
               </li>
             </ul>
