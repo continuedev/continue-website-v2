@@ -50,7 +50,7 @@ export default function Newsletter() {
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Subscribe to updates</h3>
               <p className="text-purple-200 text-lg">
-                Join our newsletter to learn more about Continue.
+                Join <a className="underline" href="https://blog.continue.dev/continue-newsletter-monthly-updates/">our newsletter</a> to learn more about Continue.
               </p>
             </div>
 
