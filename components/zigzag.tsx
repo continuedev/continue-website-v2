@@ -64,8 +64,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "how can I set up a Prisma schema that cascades
-                        deletes?"
+                        “what does this forRoot() static function do in nestjs?”
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -77,8 +76,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "where in the page should I be making this request to
-                        the backend?"
+                        “why is the first left join in this query necessary here?”
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -90,7 +88,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "how can I communicate between these iframes?"
+                        “how do I run a performance benchmark on this rust binary?”
                       </span>
                     </li>
                   </ul>
@@ -142,8 +140,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit migrate this digital ocean terraform file into
-                        one that works for GCP"
+                        “/edit rewrite this to return a flattened list from a 3x3 matrix”
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -155,8 +152,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit change this plot into a bar chart in this
-                        dashboard component"
+                        “/edit refactor these into an angular flex layout on one line"
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -167,7 +163,9 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>"/edit rewrite this function to be async"</span>
+                      <span>
+                        “/edit define a type here for a list of lists of dictionaries”
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -218,8 +216,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit here is a connector for postgres, now write one
-                        for kafka"
+                        “/edit get me started with a basic supabase edge function”
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -231,8 +228,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit make an IAM policy that creates a user with
-                        read-only access to S3"
+                        “/edit implement a c++ shortest path algo in a concise way”
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -244,8 +240,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        "/edit use this schema to write me a SQL query that gets
-                        recently churned users"
+                        “/edit create a docker compose file with php and mysql server"
                       </span>
                     </li>
                   </ul>
