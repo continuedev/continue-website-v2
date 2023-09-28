@@ -67,7 +67,7 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              A VS Code extension that brings the power of ChatGPT to your IDE
+              An IDE extension that brings the power of ChatGPT to VS Code and JetBrains
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
