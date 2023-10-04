@@ -12,17 +12,16 @@ export default function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  href="https://continue.dev/docs/intro"
+                  href="https://www.ycombinator.com/companies/continue/jobs"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-                  aria-label="Documentation"
+                  aria-label="Y Combinator"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="-220 0 900 512"
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="-10 -10 212 212"
                     className="w-8 h-8 fill-current"
                   >
-                    <path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-                  </svg>
+                    <path d="M 73.25217560011882,45.01 L 96,92.40130083308577 L 118.74782439988117,45.00999999999999 L 138.31352071473736,45.01 L 103.99,109.49661467617327 L 103.99,150.99 L 88.01,150.99 L 88.01,109.49661467617327 L 53.686479285262635,45.010000000000005 Z"></path></svg>
                 </Link>
               </li>
               <li className="ml-4">
