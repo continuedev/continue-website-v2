@@ -23,12 +23,12 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="md:flex md:grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-start flex-wrap items-center">
+            <ul className="flex grow justify-start flex-wrap items-center md:gap-x-3">
               <li>
                 <Link
                   href="https://blog.continue.dev"
                   target="_blank"
-                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
                 >
                   Blog
                 </Link>
@@ -37,7 +37,7 @@ export default function Header() {
                 <Link
                   href="https://continue.dev/docs"
                   target="_blank"
-                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
                 >
                   Docs
                 </Link>
@@ -46,7 +46,7 @@ export default function Header() {
                 <Link
                   href="https://discord.gg/vapESyrFmJ"
                   target="_blank"
-                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
                 >
                   Discord
                 </Link>
@@ -55,7 +55,7 @@ export default function Header() {
                 <Link
                   href="https://github.com/continuedev/continue"
                   target="_blank"
-                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
                 >
                   GitHub
                 </Link>
