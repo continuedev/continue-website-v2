@@ -51,6 +51,15 @@ export default function Header() {
                   Discord
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://github.com/continuedev/continue"
+                  target="_blank"
+                  className="font-medium text-white hover:text-gray-300 hover:border-zinc-400 px-3 py-1 ml-4 flex items-center transition duration-300 ease-in-out"
+                >
+                  GitHub
+                </Link>
+              </li>
             </ul>
           </nav>
 
