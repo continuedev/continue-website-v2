@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <Zigzag />
+      <Features />
       <Newsletter />
     </>
   );
