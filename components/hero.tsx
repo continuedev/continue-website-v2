@@ -60,14 +60,14 @@ export default function Hero() {
               <rect x="64.0" y="74.7812" width="17.4" height="17.4"></rect>
             </svg>
             <h1 className="h1 mb-4" data-aos="fade-up">
-              The open-source autopilot for software development
+              The easiest way to code with any LLM
             </h1>
             <p
               className="text-xl text-gray-400 mb-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Bring the power of ChatGPT to your IDE
+              An open-source autopilot in your IDE
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
