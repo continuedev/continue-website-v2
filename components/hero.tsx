@@ -1,5 +1,5 @@
-import VideoThumb from "@/public/images/screen.png";
 import ModalVideo from "@/components/modal-video";
+import VideoThumb from "@/public/images/screen.png";
 
 export default function Hero() {
   return (
@@ -60,7 +60,9 @@ export default function Hero() {
               <rect x="64.0" y="74.7812" width="17.4" height="17.4"></rect>
             </svg>
             <h1 className="h1 mb-4" data-aos="fade-up">
-              The easiest way to code with any LLM
+              The easiest way to code
+              <br />
+              with any LLM
             </h1>
             <p
               className="text-xl text-gray-400 mb-4"
