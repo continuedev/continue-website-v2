@@ -21,7 +21,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Choose any LLM</h4>
-              <p className="text-lg text-gray-400 text-center">Use any model, including GPT-4, Code LLama, Claude 2, Phind-CodeLlama, PaLM 2, WizardCoder, and more</p>
+              <p className="text-lg text-gray-400 text-center">Use any model, including GPT-4, DeepSeek Coder, Claude 2, Code Llama, Gemini Pro, and more</p>
             </div>
 
             {/* 2nd item */}
@@ -58,8 +58,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Customize your workflows</h4>
-              <p className="text-lg text-gray-400 text-center">Create a custom configuration, custom slash commands, custom context providers, custom steps, and more</p>
+              <h4 className="h4 mb-2">Local-first and modular</h4>
+              <p className="text-lg text-gray-400 text-center">Use even when offline, bring your own vector database, and customize the experience exactly like you want it</p>
             </div>
 
             {/* 5th item */}
