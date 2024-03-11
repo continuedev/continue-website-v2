@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="absolute w-full z-30">
       <a href="https://www.ycombinator.com/companies/continue/jobs">
-        <div className="py-2 text-center pr-8 backdrop-blur-sm bg-white/10">
+        <div className="py-2 text-center backdrop-blur-sm bg-white/10">
           We are hiring! →{" "}
         </div>
       </a>
